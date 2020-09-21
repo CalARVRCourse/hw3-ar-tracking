@@ -47,7 +47,7 @@ pip install opencv-contrib-python
 
 ## Instructions
 
-Instructions for setting up the starter code are availoable at the google docs file at https://docs.google.com/document/d/1dNhCcNOpxptHb9oq8h5POKWJUk09LzXlRDgXhROqwts
+Instructions for setting up the starter code are available at the google docs file at https://docs.google.com/document/d/1dNhCcNOpxptHb9oq8h5POKWJUk09LzXlRDgXhROqwts
 
 
 
