@@ -53,12 +53,26 @@ Choose _Anaconda prompt_ from the start menu, and "Run as Administrator".
 
 ![inst6.png](/Instructions/inst6.PNG)
 
-In the Anaconda prompt, type 
+In the Anaconda prompt, we will first create a new Python environment for HW3. This will use Python version 3.7.9
 ```python
-conda install -c conda-forge opencv=3.4.7=py38_7
+conda create -n hw3Env python=3.7.9
 ```
 
+Next we will activate this environment. Note you need to run your HW code in this environment, since this is the one in which we wilol be installing openCV
+```python
+conda activate hw3Env
+```
 
+Once activated, we will install OpenCV 3.4.7 in it
+```python
+conda install -c conda-forge opencv=3.4.7=py37_9
+```
+
+You can choose to run your program in any of the python IDEs in _Anaconda_ such as _Spyder_, but make sure to select the _hw3Env_ before you launch and install the IDE.
+
+![inst7.png](/Instructions/inst7.PNG)
+
+## Install OpenCV without Anaconda
 To install OpenCV outside of Anaconda, In command prompt/ terminal run:
 
 ```python
