@@ -58,7 +58,7 @@ In the Anaconda prompt, type
 conda install -c conda-forge opencv=3.4.7=py38_7
 ```
 
-
+## Install OpenCV without Anaconda
 To install OpenCV outside of Anaconda, In command prompt/ terminal run:
 
 ```python
