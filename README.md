@@ -4,7 +4,7 @@ For this homework you will be implementing pose estimation of a known image usin
 
 In this homework you will be guided through most of the steps to implement AR pose estimation of a known image, but you will be asked to implement one basic function based on the concepts we introduced in class. You will then use what you have learned to develop a system for sparse point cloud reconstruction of a scene using your mobile device. These steps represent a simplified set of functions that form the basis of modern AR tracking. 
 
-Note: This document was written using OpenCV 3.4.7. Some changes may be required for alternate versions of OpenCV.
+
  
 
 ## Logistics
@@ -31,16 +31,37 @@ You will also need to push your project folder to your Github Classroom assignme
 
 
 ## Before You Start:
+For this homework you will need Python and OpenCV. 
+
+### To install python (if you do not have it already installed)
+
+OS X and linux machines, python comes pre-installed. 
+
+In case you do not have it installed, we recommend installing the Anaconda environment.
+
+Download _Anaconda_ with _Python 3.8_ from here - https://www.anaconda.com/products/individual and install it with default options
+
+![inst1.png](/Instructions/inst1.PNG)
+![inst2.png](/Instructions/inst2.PNG)
+![inst3.png](/Instructions/inst3.PNG)
+![inst4.png](/Instructions/inst4.PNG)
+
+### To install opencv within Anaconda
+
+Choose _Anaconda prompt_ from the start menu, and "Run as Administrator".
+
+In the Anaconda prompt, 
 
 
-For this homework you will need Python and OpenCV. After installing Python, to install OpenCV: 
-In command prompt/ terminal run:
+
+To install OpenCV outside of Anaconda, In command prompt/ terminal run:
 
 ```python
 pip install opencv-contrib-python
 ```
-
 (you may need to add sudo for unix systems). 
+
+Note: This document was written using OpenCV 3.4.7. Some changes may be required for alternate versions of OpenCV.
 
 ## Instructions
 
