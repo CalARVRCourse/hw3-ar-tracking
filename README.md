@@ -57,7 +57,7 @@ In the Anaconda prompt,
 To install OpenCV outside of Anaconda, In command prompt/ terminal run:
 
 ```python
-pip install opencv-contrib-python
+pip install opencv-contrib-python==3.4.7
 ```
 (you may need to add sudo for unix systems). 
 
