@@ -45,13 +45,18 @@ Download _Anaconda_ with _Python 3.8_ from here - https://www.anaconda.com/produ
 ![inst2.png](/Instructions/inst2.PNG)
 ![inst3.png](/Instructions/inst3.PNG)
 ![inst4.png](/Instructions/inst4.PNG)
+![inst5.png](/Instructions/inst5.PNG)
 
 ### To install opencv within Anaconda
 
 Choose _Anaconda prompt_ from the start menu, and "Run as Administrator".
 
-In the Anaconda prompt, 
+![inst6.png](/Instructions/inst6.PNG)
 
+In the Anaconda prompt, type 
+```python
+conda install -c conda-forge opencv=3.4.7=py38_7
+```
 
 
 To install OpenCV outside of Anaconda, In command prompt/ terminal run:
